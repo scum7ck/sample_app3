@@ -15,7 +15,7 @@ gem 'bcrypt',         '3.1.11'
 group :development, :test do
   gem 'sqlite3', '1.3.11'
   gem 'byebug',  '9.0.0', platform: :mri
-  gem 'faker', github: 'stympy/faker'
+  gem 'faker', '1.6.6'
   gem 'database_cleaner'
 end
 
