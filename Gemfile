@@ -10,6 +10,10 @@ gem 'jquery-rails', '4.1.1'
 gem 'turbolinks'
 gem 'jbuilder',     '2.4.1'
 gem "will_paginate"
+
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'    
 gem 'bcrypt',         '3.1.11'
 
 group :development, :test do
